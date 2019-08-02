@@ -1,0 +1,24 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -BIN -LHF -DL -SSA -O11111114 -fo16 -N"F:\GSM_full_app\Click_GSM_2_STM.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"F:\GSM_full_app\" -SP"D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\" -SP"D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -IP"F:\GSM_full_app\" -IP"D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\" -IP"D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses\" "Click_GSM_2_STM.c" "TFT_driver.c" "TFT_events_code.c" "TFT_resources.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "__Lib_CString.emcl" "__Lib_UART_123_45_6.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "GSM_2_STM32_M4.emcl" "Click_GSM_2.pld"	 
+warning: 0	1501	Specified search path does not exist: 'D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses'	 
+warning: 0	1501	Specified search path does not exist: 'D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses'	 
+warning: 0	1502	Specified include path does not exist: 'D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\GSM 2 Click\Uses'	 
+warning: 0	1502	Specified include path does not exist: 'D:\Programs\Installed\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS Board Definition API\Uses'	 
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x002C)	click_gsm_2_timer.h
+error: 79	324	Undeclared identifier 'mikrobus_gpioInit' in expression	Click_GSM_2_STM.c
+error: 80	324	Undeclared identifier 'mikrobus_gpioInit' in expression	Click_GSM_2_STM.c
+error: 81	324	Undeclared identifier 'mikrobus_gpioInit' in expression	Click_GSM_2_STM.c
+error: 82	324	Undeclared identifier 'mikrobus_gpioInit' in expression	Click_GSM_2_STM.c
+error: 83	324	Undeclared identifier 'mikrobus_gpioInit' in expression	Click_GSM_2_STM.c
+error: 84	324	Undeclared identifier 'mikrobus_uartInit' in expression	Click_GSM_2_STM.c
+error: 85	324	Undeclared identifier 'mikrobus_logInit' in expression	Click_GSM_2_STM.c
+error: 99	324	Undeclared identifier '_MIKROBUS1_GPIO' in expression	Click_GSM_2_STM.c
+error: 99	324	Undeclared identifier '_MIKROBUS1_UART' in expression	Click_GSM_2_STM.c
+diagnostics: 0	122	Compilation Started	tft_objects.h
+hint: 93	1163	Variable 'save_bled_direction' has been declared, but not used	TFT_driver.c
+diagnostics: 144	123	Compiled Successfully	TFT_driver.c
+diagnostics: 0	122	Compilation Started	tft_objects.h
+diagnostics: 1	123	Compiled Successfully	tft_resources.h
+diagnostics: 0	122	Compilation Started	TFT_resources.c
+diagnostics: 3816	123	Compiled Successfully	TFT_resources.c
+error: 0	102	Finished (with errors): 06 ›»—«Ì— 2019, 15:33:06	Click_GSM_2_STM.mcpar
